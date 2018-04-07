@@ -21,15 +21,11 @@ h1{
 hr{
    border: 2px solid #7d97ad; }
    
-.main_picture{
+.main_picture , .pic{
    height: auto;
-   max-width: 100% }
-
-	
-.pic{
    max-width: 100%;
-   height: auto; }
-	
+   display:block  }
+   
 a{
    text-decoration: none;
    color: #000; }
