@@ -1,36 +1,35 @@
 h1{
 	text-transform:uppercase; 
-	color:#7d97ad;}
+	color:#7d97ad }
 	
 .image_of_logo{
-	width:100px;
-	height:	100px;
-	float:left;}
+	width: 100px;
+	height: 100px;
+	float: left }
 
 #specialty,#name{  
 	text-transform: uppercase;
-	text-align:right;	
-	font-family:"Monospace",	"Courier New";
+	text-align: right;	
+	font-family: "Monospace",	"Courier New" }
 
-}
 #name{ 
-	font-size: 40px;}
+	font-size: 40px; }
 	
 #specialty{   
-   font-weight: 550;}
+   font-weight: 550; }
    
 hr{
-   border: 2px solid #7d97ad;}
+   border: 2px solid #7d97ad; }
    
 .main_picture{
-height:100%;
-	width:100%}
+   height: auto;
+   max-width: 100% }
 
 	
 .pic{
-	width:100%;
-	height:100%;}
+   max-width: 100%;
+   height: auto; }
 	
 a{
-	text-decoration: none;
-	color:#000;}
+   text-decoration: none;
+   color: #000; }
