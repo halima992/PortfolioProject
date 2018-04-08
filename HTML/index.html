@@ -1,81 +1,84 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-		  <meta charset="UTF-8">
-		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-		  <title>First Project</title>
-		  <link rel="stylesheet" href="../css/bootstrap.min.css">
-		  <link rel="stylesheet" href="../css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<!-- body include the main code-->
 
-		</head>
-	<body>
-	
-
-		<div class ="container">
-			<div class="row">
-				 <div class="col-md-6">
-					<img src ="../img/LogoUdacity.png" alt="logo of udacity" class="image_of_logo">
-				 </div>
-				 <div class="col-md-6">
-				    <p id="name">Halima Ali</p>
-				    <p id="specialty">front end</p>
-				 </div>
-			</div>	
-			</div >
-			
-        <div class="container">
-			<div class="row">
-				<div class="col-md-12">
-				   <hr>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-		<main>
-	        <div class="container">
-				<div class="row">
-					 <div class ="col-md-12">
-					    <img src ="../img/front.jpg " alt="HTML" class="main_picture">
-					 </div>
-				</div>
+<body>
+    <!--put all the part on the container of bootstrap to make the web page more responsive -->
+    <!-- start container -->
+    <div class="container">
+        <!--use classes from bootstrap to layout  the frame into row and colum -->
+        <!-- srat the first row for logo and name -->
+        <div class="row">
+            <!-- devide the first row to equally part col-md-6 -->
+            <div class="col-md-6">
+                <img src="../img/LogoUdacity.png" alt="logo of udacity" class="image_of_logo img-fluid">
             </div>
-			<div class="container">
-				<div class="row">
-					 <div class ="col-md-12">
-				<h1>Featured Work</h1>
-					 </div>
-			    </div>
+            <div class="col-md-6">
+                <p id="name">Halima Ali</p>
+                <p id="specialty">front end</p>
             </div>
-			
-		
-		
-				<div class=container>
-					<div class =row>
-					  <div class="col-md-4">
-						<figure>
-						   <img src="../img/img1.jpg" class ="pic">
-						   <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
-						</figure>
-					  </div>
-					  <div class="col-md-4">
-						 <figure>
-						  <img src="../img/img2.jpg" class ="pic">
-						  <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
-						  </figure>
-					</div>
-					<div class="col-md-4">
-	                     <figure>
-						  <img src="../img/img3.jpg" class="pic">
-						  <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
-						 </figure>		
-				    </div>
-				  </div>
-				</div>
-		</main>
-
-	</body>
+            <!-- end devide first row -->
+        </div>
+        <!-- end first row -->
+        <!--second row take 12 column for hr -->
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <!-- end second row -->
+        <!-- start the main section -->
+        <main>
+		    <!-- start the third row -->
+            <div class="row">
+			    <!--third row take 12 column for main picture-->
+                <div class="col-md-12">
+                    <img src="../img/front.jpg " alt="HTML" class="main_picture img-fluid">
+                </div>
+            </div>
+			<!--end third row-->
+			<!--start the fourth row for heading-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Featured Work</h1>
+                </div>
+            </div>
+			<!--end the fourth row -->
+			<!--start the last row for 3 pic-->
+            <div class="row">
+			<!--devide the last row into 3 part each part take 4 column-->
+                <div class="col-md-4">
+                    <figure>
+                        <img src="../img/img1.jpg" class="pic img-fluid">
+                        <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="../img/img2.jpg" class="pic img-fluid">
+                        <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <figure>
+                        <img src="../img/img3.jpg" class="pic img-fluid">
+                        <figcaption><a href="https://www.google.com.sa/imghp?hl=ar&authuser=0"> picture#1</a></figcaption>
+                    </figure>
+                </div>
+            </div>
+			<!--end the last row-->
+        </main>
+        <!-- end the main -->
+    </div>
+    <!-- end container -->
+</body>
 
 </html>
